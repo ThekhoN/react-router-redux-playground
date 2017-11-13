@@ -38,7 +38,7 @@ const productionPlugin = new webpack.DefinePlugin({
 
 const base = {
   entry: {
-    app: path.join(paths.JS, "app.js"),
+    app: path.join(paths.JS, "index.js"),
     vendor: ["react", "react-dom", "react-router"]
   },
   output: {
